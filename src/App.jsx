@@ -85,11 +85,7 @@ const App = () => {
     setFooterOpen(!footerOpen);
   }
 
-  const usedCraneInstance=(i)=>{
-return 
-  setCurrentDay(i)
 
-  }
   const cranes = [
     {
     id: 1,

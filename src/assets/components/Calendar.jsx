@@ -272,7 +272,7 @@ setDaysForMonth(daysInMonth)
                   background: "gray"
                 }}
               ></div>
-              {console.log("jobs data:", stateArrOfJobs)}
+              {/* {console.log("jobs data:", stateArrOfJobs)} */}
               {stateArrOfJobs.map((job) => (
                 <div
                   key={job.JobID}
